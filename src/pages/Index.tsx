@@ -241,13 +241,31 @@ const Index = () => {
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Контакты</h2>
             <p className="text-gray-600 text-lg">Мы ждем вас в нашем салоне</p>
           </div>
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <div className="flex items-center space-x-4">
-                <div className="bg-pink-100 p-3 rounded-full">
-                  <Icon name="MapPin" className="text-pink-500" size={24} />
-                </div>
+        <div className="grid md:grid-cols-2 gap-6">
+          <Card>
+            <CardContent className="pt-6">
+              <div className="flex items-center space-x-3">
+                <Icon name="MapPin" className="h-5 w-5 text-purple-600" />
                 <div>
+                  <h3 className="font-semibold">Адрес</h3>
+                  <p className="text-gray-600">ул. Красивая, 15, Москва</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+          
+          <Card>
+            <CardContent className="pt-6">
+              <div className="flex items-center space-x-3">
+                <Icon name="Phone" className="h-5 w-5 text-purple-600" />
+                <div>
+                  <h3 className="font-semibold">Телефон</h3>
+                  <p className="text-gray-600">+7 (495) 123-45-67</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
                   <h3 className="font-semibold text-gray-800">Адрес</h3>
                   <div className="flex items-center gap-2">
                     <Icon name="MapPin" className="text-pink-500" size={20} />
