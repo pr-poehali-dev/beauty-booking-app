@@ -288,11 +288,10 @@ const Index = () => {
               </div>
             </div>
             <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
-              <p className="text-gray-500">Карта салона</p>
+              <span className="text-gray-500">Карта</span>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-12 px-4">
